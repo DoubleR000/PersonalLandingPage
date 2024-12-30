@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %} Renz Rommel E. Valenzuela - Landing Page{% endblock %}
+{% block content %}
+{% load static %}
+
+<!-- First Container -->
+<div class="container-fluid bg-white text-center">
+     <img src="{% static 'images/profile.jpg' %}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3>Hi, I'm Renz Rommel E. Valenzuela.</h3>
+  </div>
+  
+  <!-- Second Container -->
+  <div class="container-fluid bg-pale-violet text-center">
+    <h3 class="margin">What Am I?</h3>
+    <p>A fresh BS Computer Science graduate and an aspiring Software Engineer.</p>
+  </div>
+  
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-blue text-center">    
+    <h3 class="margin">Where To Find Me?</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      </div>
+    </div>
+  </div>
+{% endblock %}
